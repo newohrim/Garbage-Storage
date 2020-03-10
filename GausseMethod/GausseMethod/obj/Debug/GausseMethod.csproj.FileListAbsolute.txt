@@ -1,0 +1,12 @@
+D:\GausseMethod\GausseMethod\bin\Debug\GausseMethod.exe.config
+D:\GausseMethod\GausseMethod\bin\Debug\GausseMethod.exe
+D:\GausseMethod\GausseMethod\bin\Debug\GausseMethod.pdb
+D:\GausseMethod\GausseMethod\obj\Debug\GausseMethod.csprojAssemblyReference.cache
+D:\GausseMethod\GausseMethod\obj\Debug\GausseMethod.exe
+D:\GausseMethod\GausseMethod\obj\Debug\GausseMethod.pdb
+C:\Users\ohrim\Desktop\Proj\GausseMethod\GausseMethod\bin\Debug\GausseMethod.exe.config
+C:\Users\ohrim\Desktop\Proj\GausseMethod\GausseMethod\bin\Debug\GausseMethod.exe
+C:\Users\ohrim\Desktop\Proj\GausseMethod\GausseMethod\bin\Debug\GausseMethod.pdb
+C:\Users\ohrim\Desktop\Proj\GausseMethod\GausseMethod\obj\Debug\GausseMethod.csprojAssemblyReference.cache
+C:\Users\ohrim\Desktop\Proj\GausseMethod\GausseMethod\obj\Debug\GausseMethod.exe
+C:\Users\ohrim\Desktop\Proj\GausseMethod\GausseMethod\obj\Debug\GausseMethod.pdb
