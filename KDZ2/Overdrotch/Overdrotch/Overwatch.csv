@@ -1,0 +1,59 @@
+Heroes;Damage per second;Headshot;Single shot;Life;Reload
+Ana;80;0;80;100;10
+Ana Grenade;0;0;60;100;1
+Bastion Recon;160;320;0;100;20
+Bastion Turret;525;1050;0;300;200
+D.va Mech;168;336;0;600;∞
+D.va Pistol;93;186;14;150;20
+Genji Blade;50;0;50;200;∞
+Genji Dragonblade;120;0;120;200;∞
+Genji Shurkien;84;168;28;200;24
+Hanzo;125;250;125;200;1
+Junkrat;200;0;120;200;5
+Junkrat mine;120;0;120;200;1
+Junkrat trap;80;0;80;200;1
+Lucio;64;128;16;200;20
+Lucio Soundbarrier;0;0;0;200;0
+Lucio Soundwave;25;0;25;200;1
+McCree;140;280;70;200;6
+McCree Granata;25;0;25;200;1
+McCree Sventa;270;0;45;200;6
+Mei;45;0;0;250;200
+Mei Blizzard;95;0;0;250;0
+Mei Cryo Freeze;0;0;0;250;0
+Mei Ghiacciatrice;135;270;75;250;20
+Melee;30;0;30;0;0
+Mercy;0;0;0;200;0
+Mercy Pistol;100;200;20;200;20
+Pharah;132;0;120;200;8
+Reaper;240;480;120;250;0
+Reinhardt;75;0;75;500;0
+Reinhardt CALA;50;0;50;500;0
+Reinhardt Pin;300;0;300;500;0
+Roadhog Hook;30;0;30;600;1
+Roadhog LM;225;450;225;600;4
+Roadhog RM;100;200;50;600;4
+Soldier;200;400;20;200;25
+Soldier Helix;120;0;120;200;1
+Sombra;160;320;8;200;60
+Symmetra;120;0;0;200;100
+Symmetra Photon;125;0;0;200;100
+Torbj Torretta;56;0;14;0,5;0
+Torb Torretta MC;126;0;14;800;18
+Torbjorn Hammer;75;0;75;200;0
+Torbjorn LM;119;238;70;200;18
+Torbjorn Molten LM;175;350;70;500;19
+Torbjorn Molten RM;262,5;525;150;500;0
+Torbjorn RM;195;390;150;200;18
+Tracer;240;480;6;150;40
+Widowmaker Burst;130;260;13;200;30
+Widowmaker Snip;120;300;120;200;10
+Widowmaker Venom;15;0;75;0;1
+Winston;54;0;0;0,5;100
+Winston Salto;50;0;50;0,5;1
+Zarya;92;0;92;400;4
+Zarya;160;0;0;400;100
+Zeny trascendence;0;0;0;200;20
+Zenyatta;138;276;46;200;20
+Zenyatta Orbato;179,4;358,8;0;200;20
+Zenyatta R2;175;350;35;200;20
