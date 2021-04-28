@@ -1,0 +1,11 @@
+﻿  sorting_expirement.cpp
+C:\Users\ohrim\Desktop\Proj\SortingExpirement\SortingExpirement\sorting_expirement.cpp(20,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ohrim\Desktop\Proj\SortingExpirement\SortingExpirement\sorting_expirement.cpp(23,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ohrim\Desktop\Proj\SortingExpirement\SortingExpirement\sorting_expirement.cpp(26,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ohrim\Desktop\Proj\SortingExpirement\SortingExpirement\sorting_expirement.cpp(29,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ohrim\Desktop\Proj\SortingExpirement\SortingExpirement\sorting_expirement.cpp(37,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ohrim\Desktop\Proj\SortingExpirement\SortingExpirement\sorting_expirement.cpp(47,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ohrim\Desktop\Proj\SortingExpirement\SortingExpirement\sorting_expirement.cpp(52,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ohrim\Desktop\Proj\SortingExpirement\SortingExpirement\sorting_expirement.cpp(57,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ohrim\Desktop\Proj\SortingExpirement\SortingExpirement\sorting_expirement.cpp(62,23): warning C4018: <: несоответствие типов со знаком и без знака
+  SortingExpirement.vcxproj -> C:\Users\ohrim\Desktop\Proj\SortingExpirement\Debug\SortingExpirement.exe
