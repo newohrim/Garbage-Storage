@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="209.0" maxWidth="362.0" minHeight="209.0" minWidth="362.0" prefHeight="209.0" prefWidth="362.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.PhoneBook.java.ExportWindowController">
+   <children>
+      <GridPane prefHeight="209.0" prefWidth="362.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="176.0" minWidth="10.0" prefWidth="77.6" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.6" minWidth="10.0" prefWidth="285.6" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="174.4" minHeight="10.0" prefHeight="173.4" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="99.4" minHeight="10.0" prefHeight="35.400000000000006" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Путь" GridPane.halignment="CENTER" />
+            <TextField fx:id="pathField" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <HBox alignment="CENTER_RIGHT" maxWidth="-Infinity" prefHeight="36.0" prefWidth="226.0" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onCancelButtonClicked" prefWidth="70.0" text="Отмена">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onExportButtonClicked" prefHeight="26.0" prefWidth="70.0" text="Ок">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

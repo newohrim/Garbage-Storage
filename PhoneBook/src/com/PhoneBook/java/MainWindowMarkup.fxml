@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.PhoneBook.java.MainWindowController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="128.4" minHeight="0.0" prefHeight="24.0" valignment="TOP" vgrow="NEVER" />
+    <RowConstraints minHeight="10.0" prefHeight="340.8" valignment="CENTER" vgrow="ALWAYS" />
+    <RowConstraints maxHeight="51.39999999999998" minHeight="10.0" prefHeight="30.80000000000001" valignment="BOTTOM" vgrow="NEVER" />
+  </rowConstraints>
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <top>
+            <MenuBar maxHeight="25.6" maxWidth="1.7976931348623157E308" minHeight="25.6" minWidth="600.0" BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" text="Файл">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#onAddButtonClicked" text="Добавить новый контакт" />
+                    <MenuItem mnemonicParsing="false" onAction="#onDeleteButtonClicked" text="Удалить контакт" />
+                    <MenuItem mnemonicParsing="false" onAction="#onExitButtonClicked" text="Выход" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Настройки">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#onImportButtonClicked" text="Импортировать" />
+                    <MenuItem mnemonicParsing="false" onAction="#onExportButtonClicked" text="Экспортировать" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Справка">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#onReferenceButtonClicked" text="Открыть" />
+                     </items></Menu>
+              </menus>
+            </MenuBar>
+         </top>
+      </BorderPane>
+      <TableView fx:id="contactsTable" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+        <columns>
+          <TableColumn fx:id="lastNameColumn" editable="false" prefWidth="75.0" text="Фамилия" />
+          <TableColumn fx:id="firstNameColumn" editable="false" prefWidth="75.0" text="Имя" />
+          <TableColumn fx:id="thirdNameColumn" editable="false" prefWidth="75.0" text="Отчество" />
+          <TableColumn fx:id="phoneNumberColumn" editable="false" prefWidth="120.0" text="Мобильный телефон" />
+          <TableColumn fx:id="addressColumn" editable="false" prefWidth="120.0" text="Адрес" />
+          <TableColumn fx:id="birthdayColumn" editable="false" prefWidth="75.0" text="День рождения" />
+          <TableColumn fx:id="additionalInfoColumn" editable="false" prefWidth="120.0" text="Комментарий" />
+        </columns>
+      </TableView>
+      <HBox maxHeight="31.2" maxWidth="1.7976931348623157E308" minHeight="31.2" minWidth="600.0" prefHeight="31.2" prefWidth="600.0" GridPane.rowIndex="2" GridPane.vgrow="NEVER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onDeleteButtonClicked" prefHeight="43.0" prefWidth="120.0" text="Удалить" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#onEditButtonClicked" prefHeight="43.0" prefWidth="120.0" text="Редактировать" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#onAddButtonClicked" prefHeight="43.0" prefWidth="120.0" text="Добавить" HBox.hgrow="ALWAYS" />
+            <TextField fx:id="searchField" maxHeight="37.0" minHeight="25.6" minWidth="144.0" onKeyReleased="#onKeyReleasedHandle" prefHeight="37.0" prefWidth="144.0" promptText="Строка поиска" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#onSearchButtonClick" prefHeight="43.0" prefWidth="120.0" text="Поиск" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+   </children>
+</GridPane>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="493.0" maxWidth="338.0" minHeight="493.0" minWidth="338.0" prefHeight="493.0" prefWidth="338.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.PhoneBook.java.AddContactWindowController">
+   <children>
+      <GridPane prefHeight="493.0" prefWidth="338.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="186.0" minWidth="10.0" prefWidth="170.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="176.0" minWidth="10.0" prefWidth="168.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="194.4" minHeight="10.0" prefHeight="79.4" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="372.6" minHeight="10.0" prefHeight="370.6" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="357.4000076293945" minHeight="10.0" prefHeight="42.60000000000002" vgrow="NEVER" />
+        </rowConstraints>
+         <children>
+            <Label text="Добавить новый контакт" textAlignment="CENTER" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="200.0" prefWidth="339.0" GridPane.columnSpan="2" GridPane.rowIndex="1">
+               <children>
+                  <Label text="Фамилия">
+                     <VBox.margin>
+                        <Insets left="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="lastNameField" promptText="Фамилия">
+                     <VBox.margin>
+                        <Insets left="30.0" right="30.0" />
+                     </VBox.margin>
+                  </TextField>
+                   <Label text="Имя">
+                       <VBox.margin>
+                           <Insets left="30.0" />
+                       </VBox.margin>
+                   </Label>
+                   <TextField fx:id="firstNameField" promptText="Имя">
+                       <VBox.margin>
+                           <Insets left="30.0" right="30.0" />
+                       </VBox.margin>
+                   </TextField>
+                   <Label text="Имя отчества">
+                       <VBox.margin>
+                           <Insets left="30.0" />
+                       </VBox.margin>
+                   </Label>
+                   <TextField fx:id="thirdNameField" promptText="Имя отчества">
+                       <VBox.margin>
+                           <Insets left="30.0" right="30.0" />
+                       </VBox.margin>
+                   </TextField>
+                   <Label text="Мобильный телефона">
+                       <VBox.margin>
+                           <Insets left="30.0" />
+                       </VBox.margin>
+                   </Label>
+                   <TextField fx:id="mobilePhoneNumberField" promptText="Мобильный телефона">
+                       <VBox.margin>
+                           <Insets left="30.0" right="30.0" />
+                       </VBox.margin>
+                   </TextField>
+                   <Label text="Домашний телефона">
+                       <VBox.margin>
+                           <Insets left="30.0" />
+                       </VBox.margin>
+                   </Label>
+                   <TextField fx:id="homePhoneNumberField" promptText="Домашний телефона">
+                       <VBox.margin>
+                           <Insets left="30.0" right="30.0" />
+                       </VBox.margin>
+                   </TextField>
+                   <Label text="Адрес">
+                       <VBox.margin>
+                           <Insets left="30.0" />
+                       </VBox.margin>
+                   </Label>
+                   <TextField fx:id="addressField" promptText="Адрес">
+                       <VBox.margin>
+                           <Insets left="30.0" right="30.0" />
+                       </VBox.margin>
+                   </TextField>
+                   <Label text="Дата рождения">
+                       <VBox.margin>
+                           <Insets left="30.0" />
+                       </VBox.margin>
+                   </Label>
+                  <DatePicker fx:id="birthdayField" prefHeight="26.0" prefWidth="280.0">
+                     <VBox.margin>
+                        <Insets left="30.0" right="30.0" />
+                     </VBox.margin>
+                  </DatePicker>
+                   <Label text="Дополнительная информация">
+                       <VBox.margin>
+                           <Insets left="30.0" />
+                       </VBox.margin>
+                   </Label>
+                   <TextArea fx:id="additionalInfoField" promptText="Дополнительная информация">
+                       <VBox.margin>
+                           <Insets left="30.0" right="30.0" />
+                       </VBox.margin>
+                   </TextArea>
+               </children></VBox>
+            <Button mnemonicParsing="false" onAction="#onCancelButtonClick" prefHeight="26.0" prefWidth="127.0" text="Cancel" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#onAddButtonClick" prefHeight="26.0" prefWidth="127.0" text="Add" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

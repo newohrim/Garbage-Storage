@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="301.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea editable="false" layoutX="50.0" layoutY="14.0" prefHeight="355.0" prefWidth="201.0" text="После подключения к серверу программа подгружает файлы, доступные для скачивания. Чтобы скачать файл, необходимо дважды кликнуть по строке с файлом. После чего откроется окно с подтверждением скачивания. После подстверждения начинается загрузка указанного файла, появляется Progress bar в правом нижнем углу экрана. После завершения загрузки файл появляется в правой половине окна, как уже скачанный. Порядок аргументов для запуска сервера: path, port, password. " wrapText="true" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Label layoutX="65.0" layoutY="366.0" text="Синенко Арсений БПИ197" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

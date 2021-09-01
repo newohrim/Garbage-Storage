@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="224.0" prefWidth="427.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SaveFileWindowController">
+   <children>
+      <HBox alignment="CENTER_LEFT" layoutX="53.79999923706055" layoutY="67.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="75.0">
+         <children>
+            <Label prefHeight="18.0" prefWidth="228.0" text="Путь до директории" textAlignment="CENTER" />
+            <TextField fx:id="pathField" prefHeight="26.0" prefWidth="343.0" promptText="Путь">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin></TextField>
+         </children>
+      </HBox>
+      <Button onAction="#saveFileButtonClicked" layoutX="316.0" layoutY="172.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="87.0" text="Сохранить" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+      <Button onAction="#cancelButtonClicked" layoutX="206.0" layoutY="168.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="87.0" text="Отмена" />
+   </children>
+</AnchorPane>

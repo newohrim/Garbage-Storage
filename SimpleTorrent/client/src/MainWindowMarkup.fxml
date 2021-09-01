@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainWindowController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" vgrow="ALWAYS" />
+   </rowConstraints>
+   <children>
+      <BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="605.0">
+         <top>
+            <MenuBar maxHeight="25.6" minHeight="25.6" BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" text="Соединение">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#onConnectButtonClick" text="Подключиться" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Справка">
+                  <items>
+                    <MenuItem onAction="#onShowReferenceClick" mnemonicParsing="false" text="Смотреть справку" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </top>
+         <center>
+             <GridPane BorderPane.alignment="CENTER">
+                 <columnConstraints>
+                     <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                     <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                 </columnConstraints>
+                 <rowConstraints>
+                     <RowConstraints maxHeight="168.4" minHeight="10.0" prefHeight="28.399998092651373" vgrow="NEVER" />
+                     <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="320.4000019073486" vgrow="ALWAYS" />
+                 </rowConstraints>
+                 <TableView fx:id="filesTable" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+                     <columns>
+                         <TableColumn fx:id="fileNameColumn" prefWidth="120.0" text="Имя файла" />
+                         <TableColumn fx:id="fileSizeColumn" prefWidth="75.0" text="Вес файла" />
+                         <TableColumn fx:id="fileLastChangeColumn" prefWidth="120.0" text="Дата изменения" />
+                     </columns>
+                 </TableView>
+                 <TableView fx:id="savedFilesTable" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+                     <columns>
+                         <TableColumn fx:id="savedFileNameColumn" prefWidth="120.0" text="Имя файла" />
+                         <TableColumn fx:id="savedFileSizeColumn" prefWidth="75.0" text="Вес файла" />
+                         <TableColumn fx:id="savedFileLastChangeColumn" prefWidth="120.0" text="Дата изменения" />
+                     </columns>
+                 </TableView>
+               <Label text="На сервере" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                  <font>
+                     <Font size="28.0" />
+                  </font>
+               </Label>
+                 <Label text="Скачанные" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                         <Font size="28.0" />
+                     </font>
+               </Label>
+             </GridPane>
+      
+         </center>
+         <bottom>
+            <HBox alignment="CENTER_RIGHT" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="606.0" BorderPane.alignment="CENTER">
+               <children>
+                   <Label fx:id="downloadingProgressLabel" text="Downloading progress" textAlignment="CENTER">
+                     <padding>
+                        <Insets right="5.0" />
+                     </padding>
+                  </Label>
+                  <ProgressBar fx:id="downloadProgressBar" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" progress="0.0">
+                     <HBox.margin>
+                        <Insets bottom="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </ProgressBar>
+               </children>
+            </HBox>
+         </bottom>
+      </BorderPane>
+   </children>
+</GridPane>

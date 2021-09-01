@@ -1,0 +1,26 @@
+----------------------------------------------------------------
+Tue May 11 18:20:09 MSK 2021:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): экземпляр a816c00e-0179-5c03-93e7-00000f0a4bf0
+в каталоге базы данных memory:C:\Users\ohrim\Desktop\Proj\PhoneBook\myDB jdk.internal.loader.ClassLoaders$AppClassLoader@6ed3ef1 
+
+java.vendor=Oracle Corporation
+java.runtime.version=11.0.8+10-LTS
+user.dir=C:\Users\ohrim\Desktop\Proj\PhoneBook
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Запущен загрузчик классов базы данных - derby.database.classpath=''
+----------------------------------------------------------------
+Tue May 11 18:20:11 MSK 2021:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): экземпляр 0f134137-0179-5c03-93e7-00000f0a4bf0
+в каталоге базы данных C:\Users\ohrim\Desktop\Proj\PhoneBook\DERBY\contactsDB jdk.internal.loader.ClassLoaders$AppClassLoader@6ed3ef1 
+
+java.vendor=Oracle Corporation
+java.runtime.version=11.0.8+10-LTS
+user.dir=C:\Users\ohrim\Desktop\Proj\PhoneBook
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Запущен загрузчик классов базы данных - derby.database.classpath=''
