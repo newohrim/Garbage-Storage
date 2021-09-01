@@ -1,0 +1,4 @@
+﻿  TVIMS_HELP.cpp
+C:\Users\ohrim\Desktop\Proj\TVIMS_HELP\TVIMS_HELP\TVIMS_HELP.cpp(14,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ohrim\Desktop\Proj\TVIMS_HELP\TVIMS_HELP\TVIMS_HELP.cpp(26,62): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+  TVIMS_HELP.vcxproj -> C:\Users\ohrim\Desktop\Proj\TVIMS_HELP\Debug\TVIMS_HELP.exe

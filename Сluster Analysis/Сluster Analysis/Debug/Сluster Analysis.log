@@ -1,0 +1,6 @@
+﻿  Сluster Analysis.cpp
+C:\Users\ohrim\Desktop\Proj\Сluster Analysis\Сluster Analysis\Сluster Analysis.cpp(12,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\ohrim\Desktop\Proj\Сluster Analysis\Сluster Analysis\Сluster Analysis.cpp(22,28): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\ohrim\Desktop\Proj\Сluster Analysis\Сluster Analysis\Сluster Analysis.cpp(23,28): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\ohrim\Desktop\Proj\Сluster Analysis\Сluster Analysis\Сluster Analysis.cpp(122,27): warning C4018: <: несоответствие типов со знаком и без знака
+  Сluster Analysis.vcxproj -> C:\Users\ohrim\Desktop\Proj\Сluster Analysis\Debug\Сluster Analysis.exe

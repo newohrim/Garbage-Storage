@@ -1,0 +1,5 @@
+﻿  pirson_spearman.cpp
+C:\Users\ohrim\Desktop\Proj\TVIMS_HELP\pirson_spearman\pirson_spearman.cpp(93,23): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\ohrim\Desktop\Proj\TVIMS_HELP\pirson_spearman\pirson_spearman.cpp(122,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ohrim\Desktop\Proj\TVIMS_HELP\pirson_spearman\pirson_spearman.cpp(139,27): warning C4018: <: несоответствие типов со знаком и без знака
+  pirson_spearman.vcxproj -> C:\Users\ohrim\Desktop\Proj\TVIMS_HELP\Debug\pirson_spearman.exe
